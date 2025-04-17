@@ -1,0 +1,35 @@
+.entry-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.entry-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.entry-content {
+  padding: 1.5rem;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #333;
+}
+
+.wp-block-heading {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+.has-text-align-center {
+  text-align: center;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Add 50vh of empty space at the bottom */
+.entry-content {
+  padding-bottom: 50vh;
+}

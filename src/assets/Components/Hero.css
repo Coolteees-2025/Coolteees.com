@@ -1,0 +1,74 @@
+.Hero-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.Hero-main h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.Hero-sec {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.Hero-item-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Hero-item-main:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.Hero-main h1 {
+  margin-bottom: 10px;
+}
+
+.Hero-main hr {
+  width: 50vw;
+  height: 4px;
+  background: #222;
+  border: none;
+  border-radius: 2px;
+  margin: 0 auto 20px auto;
+  transition: width 0.5s ease-in-out;
+}
+
+.Hero-main hr:hover{
+  width: 550px;
+}
+.Hero-item-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.Hero-item-p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+nav {
+  height: 40px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+}
+nav a {
+  margin-left: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: whitesmoke;
+}
+nav .active {
+  border-bottom: 2px solid white;
+  padding: 0 10px;
+  margin-left: 40px;
+}

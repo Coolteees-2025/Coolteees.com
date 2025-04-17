@@ -1,0 +1,40 @@
+.entry-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.entry-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.entry-content {
+  padding: 1.5rem;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #333;
+}
+
+.wp-block-heading {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+.wp-block-list {
+  padding-left: 1.5rem;
+  list-style: disc;
+  margin-bottom: 1rem;
+}
+
+.has-text-align-center {
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1rem;
+}
