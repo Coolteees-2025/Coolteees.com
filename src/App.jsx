@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import "./App.css";
 import Home from "./assets/pages/Home/Home";
 import About from "./assets/pages/About/About";
@@ -14,7 +14,7 @@ import ProductsPage from "./assets/pages/Funkey/Funkey";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>>
       <NavigationBar />
       <SecondaryNavbar />
       <Routes>
@@ -27,7 +27,7 @@ function App() {
         <Route path="/funkey" element={<ProductsPage />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>>
   );
 }
 
